@@ -130,4 +130,5 @@ Pss = matlab.ss(A, B, C, D)
 Pr, T = canonical_form(Pss, form='reachable') # 可制御正準系
 # print(Pr)
 Po, T = canonical_form(Pss, form='observable') # 可観測正準系
-# print(Po)
+print(Po)
+# update test
